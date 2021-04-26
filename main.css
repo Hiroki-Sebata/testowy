@@ -130,7 +130,42 @@ header{
     top: 68px;
     border-radius: 24px;
 }
+.sns-facebook,.sns-twitter{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    color:  #DADADA;
+    background: #63C7FF;
+    border-radius: 50%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 20px;
 
+}
+.sns-twitter{
+    top: 520px;
+
+}
+.sns-facebook{
+    top: 440px;
+}
+.sns-twitter > div{
+    display: flex;
+    color: #DADADA;
+    justify-content: center;
+
+
+
+}
+.sns-facebook > div{
+    display: flex;
+    color: #DADADA;
+    justify-content: center;
+
+
+}
 .circle{
     top: 200px;
     position: absolute;
@@ -479,22 +514,22 @@ input{
     box-shadow: 0px 12px 44px rgba(56, 165, 219, 0.6);
 
 }
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 320px) {
     
     body{
-        width: 575px;
+        width: 320px;
         margin: 0;
         padding: 0;
     }
     header{
-        width: 575px;
+        width: 320px;
     }
     .logo{
         left: 44px;
     
         }
     .shape1{
-        width: 542px;
+        width: 320px;
     
         }
     .shape2{
@@ -502,11 +537,11 @@ input{
         
             }
     .shape3{
-        width: 575px;
+        width: 320px;
     
         }
         .letter{
-            width: 575px;
+            width: 320px;
         }
     .playButton >img{
             position: absolute;
@@ -555,7 +590,7 @@ input{
     }
     .arrow{
         display: none;
-        width: 575px;
+        width: 320px;
     }
     #closing{
         width: 364px;
@@ -568,28 +603,28 @@ input{
     }
     #second-container{
 
-        width: 575px;
+        width: 320px;
         display: flex;
         justify-content: center;
     }
     #second-container > h3{
         position: absolute;
-        right: 100px;
+        right: 20px;
         top: 1520px;
-
+        width: 208px;
 
     }
 
     .slate{
         position: absolute;
-        width: 575px;
+        width: 320px;
         left: -480px;
         top: 1570px;
-        border: black solid 2px;
+
     }
 
     .column{
-        right: 30px;
+        left: -400px;
         justify-content: center;
         position: absolute;
         top: 1670px;
@@ -602,7 +637,7 @@ input{
         margin-top: 40px;
     }
     .upper-footer{
-        width: 575px;
+        width: 320px;
         display: flex;
         flex-direction: column;
 
@@ -616,7 +651,7 @@ input{
         border-radius: 124px;
         position: absolute;
         left: 0;
-        top: 10px;
+        top: -34px;
         width: 400px;
     
     
@@ -628,7 +663,149 @@ input{
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
+
+    body{
+        width: 768px;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 768px;
+    }
+    .logo{
+        left: 44px;
+    
+        }
+    .shape1{
+        width: 768px;
+    
+        }
+    .shape2{
+            width: 340px;
+        
+            }
+    .shape3{
+        width: 768px;
+    
+        }
+        .letter{
+            width: 768px;
+        }
+    .playButton >img{
+            position: absolute;
+            left:200px;
+            top: 500px;
+            width: 320px;
+            height: auto;
+            
+        }
+    .playButton{
+        height: 700px;
+
+    }
+    .circle{
+        left: 340px;
+        top: 570px;
+
+    }
+    
+    #member:hover{
+        box-shadow: 0px 12px 44px rgba(56, 165, 219, 0.6);
+        transition: all ease-in-out 0.5s;
+    }
+    
+    #pop{
+        position: absolute;
+        border: black solid 2px;
+        width: 400px !important;
+        border-radius: 24px;
+        display: none;
+        padding: 24px;
+
+
+        left: 124px;
+        background: white;
+        z-index: 99999;
+
+    
+    }
+    .description{
+        width: 360px;
+    }
+    h5{
+        text-align: center;
+
+    }
+    .arrow{
+        display: none;
+        width: 768px;
+    }
+    #closing{
+        width: 364px;
+    }
+    #main-container{
+        width: 100%;
+
+
+
+    }
+    #second-container{
+
+        width: 768px;
+        display: flex;
+        justify-content: center;
+    }
+    #second-container > h3{
+        position: absolute;
+        left: 260;
+        top: 1520px;
+
+
+    }
+
+    .slate{
+        position: absolute;
+        width: 768px;
+        left: -480px;
+        top: 1570px;
+
+    }
+
+    .column{
+        left: -300px;
+        justify-content: center;
+        position: absolute;
+        top: 1670px;
+        height: 200px;
+    }
+    .input{
+        display: flex;
+        justify-content: space-around;
+        width: 200px;
+        margin-top: 40px;
+    }
+    .upper-footer{
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+    #footer{
+        background: linear-gradient(180deg, #FAFBFF 0%, #EFF1F9 41.68%, #E9ECF6 49.59%, #CED3E8 93.91%);
+        height: 200px;
+    }
+    .input-group-append > button{
+        border-radius: 124px;
+        position: absolute;
+        left: 330;
+
+        width: 100px;
+    
+    
+        color: white;
+    }
 
 }
 
