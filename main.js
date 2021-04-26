@@ -37,7 +37,7 @@ if(screen.matches){
     <div class="carousel-inner">
         <div id="popUp" class="item active"> 
             <div id="member1">
-                <img class="ceos" src="/image/ceo1.png" alt="" width="150" height="150">
+                <img class="ceos" src="image/ceo1.png" alt="" width="150" height="150">
                 <h5>Edgar Morrison</h5>
                 <p class="occupation">CEO</p>
                 <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
@@ -49,7 +49,7 @@ if(screen.matches){
         </div>
         <div class="item">
             <div id="member">
-                <img class="ceos" src="/image/ceo2.png" alt="" width="150" height=150>
+                <img class="ceos" src="image/ceo2.png" alt="" width="150" height=150>
                 <h5>Mae Martin</h5>
                 <p class="occupation">CEO</p>
                 <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
@@ -62,7 +62,7 @@ if(screen.matches){
 
         <div class="item">
             <div id="member">
-                <img class="ceos" src="/image/ceo3.png" alt="" width="150" height="150">
+                <img class="ceos" src="image/ceo3.png" alt="" width="150" height="150">
                 <h5>David Banks</h5>
                 <p class="occupation">CEO</p>
                 <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
@@ -75,7 +75,7 @@ if(screen.matches){
     
         <div class="item">
             <div id="member">
-                <img class="ceos" src="/image/ceo4.png" alt="" width="150" height="150">
+                <img class="ceos" src="image/ceo4.png" alt="" width="150" height="150">
                 <h5>Frederick Parsons</h5>
                 <p class="occupation">CEO</p>
                 <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
